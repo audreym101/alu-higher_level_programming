@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-for i in range(0, 100):
-    if i <= 98:
-        print("{:02d}".format(i), end=", ")
-    else:
-        print(99)
+if __name__ == "__main__":
+    from variable_load_5 import a
+    print(a)
